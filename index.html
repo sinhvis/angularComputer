@@ -20,6 +20,12 @@
 
 <div class="jumbotron">
 	
+	<!-- form to update the message variable using ng-model -->
+	<div class="form-group">
+		<label>Message</label>
+		<input type="text" class="form-control" ng-model="main.message">
+	</div>
+
 	<!-- display the message -->
 	<h2> This is my message: </h2>
 	{{ main.message }}
